@@ -1,11 +1,11 @@
 {
-	"name": "esp-library-template",
-	"keywords": "template, library, esp32",
-	"description": "Template Library for ESP32",
-	"homepage": "https://github.com/reds6188/esp-library-template.git",
+	"name": "esp-ble-serial",
+	"keywords": "esp32 bluetooth ble serial",
+	"description": "BLE Serial for ESP32",
+	"homepage": "https://github.com/reds6188/esp-ble-serial.git",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/reds6188/esp-library-template.git"
+		"url": "https://github.com/reds6188/esp-ble-serial.git"
 	},
 	"authors": {
 		"name": "Daniele Rossi",
@@ -18,11 +18,11 @@
 	"dependencies": [
 		{
 			"name": "esp-console",
-			"version": "https://github.com/reds6188/esp-console.git@1.0.0"
+			"version": "https://github.com/reds6188/esp-console.git#1.0.0"
 		},
 		{
-			"name": "ESPRandom",
-			"version": "mulmer89/ESPRandom@^1.5.0"
+			"name": "NimBLE-Arduino",
+			"version": "h2zero/NimBLE-Arduino@^1.4.1"
 		}
 	]
 }
